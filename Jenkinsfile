@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'git@github.com:haseebhassan512/asgn4.git', branch: 'main'
+                git url: 'git@github.com:haseebhassan512/asgn4.git', branch: 'master'
             }
         }
         stage('Build') {
